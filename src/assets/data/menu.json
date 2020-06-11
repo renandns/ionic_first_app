@@ -1,0 +1,43 @@
+[
+    {
+      "icone": "logo-google-playstore",
+      "nome": "Alerta",
+      "link":  "/alert"
+    },
+
+    {
+      "icone": "clipboard",
+      "nome": "Abas",
+      "link":  "/action-sheet"
+    },
+    {
+      "icone": "card",
+      "nome": "Cards",
+      "link":  "/cards"
+    },
+    {
+      "icone": "calendar-outline",
+      "nome": "Datas",
+      "link":  "/datas"
+    },
+    {
+      "icone": "bookmark-outline",
+      "nome": "Grid",
+      "link":  "/grid"
+    },
+    {
+      "icone": "browsers-outline",
+      "nome": "Input",
+      "link":  "/input"
+    },
+    {
+      "icone": "at-circle-outline",
+      "nome": "Slides",
+      "link":  "/slides"
+    },
+    {
+      "icone": "american-football-outline",
+      "nome": "Toast",
+      "link":  "/toast"
+    }
+  ]

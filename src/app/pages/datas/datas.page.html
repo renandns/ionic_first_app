@@ -1,0 +1,34 @@
+<app-header titulo="datas"></app-header>
+
+<ion-content padding>
+
+  <ion-list>
+    <ion-item>
+      <ion-label>Data Simples</ion-label>
+      <ion-datetime 
+      placeholder="Data"
+      display-format="DD/MM/YYYY"
+      cancelText="Cancelar"
+      [ngModel] = "dataAtual.toISOString()"
+      (ionChange) = "trocarData($event)"
+      ></ion-datetime>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-item>
+      <ion-label>Intervalo</ion-label>
+      <ion-datetime 
+      placeholder="Data"
+      display-format="DD/MM/YYYY"
+      cancelText="Cancelar"
+      [ngModel] = "dataAtual.toISOString()"
+      min="2015"
+      max="2020"
+      ></ion-datetime>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
+
+<!-- value = "{{dataAtual | date:'yyyy-MM-dd'}}" -->
